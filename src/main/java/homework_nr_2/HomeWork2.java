@@ -18,8 +18,6 @@ public class HomeWork2 {
         System.out.println(JavaIsAmazing);
         System.out.println(Pi);
 
-        double Price = 25.42D;
-        double Tax = 11.2D;
         int Quantity = 148;
         double Sum = 0;
 
