@@ -32,6 +32,11 @@ public class HomeWork3 {
                 break;
             default: System.out.println("Not a valid number");
         }
-
+int b = 100;
+        while (b<= 1000){
+            if (b % 5 == 0);
+            System.out.println(b);
+            b++;
+        }
     }
 }
