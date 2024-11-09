@@ -55,7 +55,7 @@ public class HomeWork3 {
                 System.out.println(b);
             }
         }
-// number 6  sum = (2n-1)/(2n+1), n=1,2,3,4..50
+// number 6  sum = (2n-1)/(2n+1), n=1,2,3,4..49
         double Summ = 0.0;
         for (int n = 1; n <= 49; n++){
             double x = (2.0 * n -1)/(2.0 * n + 1);
