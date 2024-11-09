@@ -40,6 +40,17 @@ public class HomeWork3 {
                 System.out.println(b);
             }
         }
-
+// 2n-1
+        int n = 0;
+        int a = 0;
+        while(n <= 49){
+            n++;
+            while (a <= 97) {
+                a++;
+                if (a % 2 != 0) {
+                    System.out.println(a);
+                }
+            }
+        }
     }
 }
