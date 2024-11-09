@@ -31,12 +31,15 @@ public class HomeWork3 {
             case 12: System.out.println("December");
                 break;
             default: System.out.println("Not a valid number");
+
         }
-int b = 100;
-        while (b<= 1000){
-            if (b % 5 == 0);
-            System.out.println(b);
+        int b = 100;
+        while (b <= 1000) {
             b++;
+            if (b % 5 == 0) {
+                System.out.println(b);
+            }
         }
+
     }
 }
