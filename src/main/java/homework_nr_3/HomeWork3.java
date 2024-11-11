@@ -1,6 +1,6 @@
 package homework_nr_3;
 
-import java.sql.SQLOutput;
+
 
 public class HomeWork3 {
 
