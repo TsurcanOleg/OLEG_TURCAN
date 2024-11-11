@@ -12,8 +12,8 @@ public class Circle {
     }
 
     public static float calculateArea (float radius ){
-        float areaCircle = 3.14F * radius * radius ;
-        return areaCircle;
+        float a = 3.14F * radius * radius ;
+        return a;
     }
 
 }
