@@ -5,15 +5,20 @@ public class Circle {
     public static void main(String[] args) {
 
         float radius = 6F;
-        float Area = calculateArea(radius);
+        float area = calculateArea(radius);
 
-        System.out.println(Area);
+        System.out.println(area);
 
     }
 
     public static float calculateArea (float radius ){
-        float a = 3.14F * radius * radius ;
-        return a;
+        float area = 3.14F * radius * radius ;
+        return area;
+    }
+String radius;
+
+    public Circle (String inputradius){
+        radius = inputradius;
     }
 
 }
