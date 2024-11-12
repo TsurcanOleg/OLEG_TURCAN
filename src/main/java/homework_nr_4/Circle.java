@@ -11,14 +11,9 @@ public class Circle {
 
     }
 
-    public static float calculateArea (float radius ){
-        float area = 3.14F * radius * radius ;
+    public static float calculateArea(float radius) {
+        float area = 3.14F * radius * radius;
         return area;
-    }
-String radius;
-
-    public Circle (String inputradius){
-        radius = inputradius;
     }
 
 }
