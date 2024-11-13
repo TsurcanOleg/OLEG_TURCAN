@@ -26,15 +26,23 @@ public static float calculateFarenheit(float celsius){
         return Farenheit;
 }
 
-float farenheit;
+    float farenheit;
+    float celsius;
 
-    public TemperatureConverter(float farenheit){
+
+    public TemperatureConverter(float farenheit, float celsius){
         this.farenheit = farenheit;
+        this.celsius = celsius;
 
     }
-    public float toCelsius(){
-    float toCelsius = (farenheit - 32) * (5F / 9F);
-    return toCelsius;
+    public float toCelsius() {
+        float toCelsius = (farenheit - 32) * (5F / 9F);
+        return toCelsius;
     }
+    public float toFarenheit(){
+        float toFarenheit = (celsius * (9F / 5F) + 32);
+        return toFarenheit;
+        }
+
 
 }
