@@ -12,6 +12,11 @@ public class Main {
         float area = circle.calculateArea();
         System.out.println("Area = " + area);
 
+
+        TemperatureConverter toCelsius = new TemperatureConverter (90);
+        float Celsius = toCelsius.toCelsius();
+        System.out.println("To Celsius " + Celsius);
+
     }
 
 }
