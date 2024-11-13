@@ -15,10 +15,16 @@ public class Circle {
         float area = 3.14F * radius * radius;
         return area;
     }
-float radius;
+
+    float radius;
 
     public Circle(float radius){
         this.radius = radius;
+
+    }
+    public float calculateArea (){
+        float calculateArea = 3.14F * radius * radius;
+        return calculateArea;
 
     }
 }

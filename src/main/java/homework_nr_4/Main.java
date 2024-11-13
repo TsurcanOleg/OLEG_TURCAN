@@ -7,7 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Circle circle1 = new Circle(6F);
+        Circle circle = new Circle(6F);
+
+        float area = circle.calculateArea();
+        System.out.println("Area = " + area);
 
     }
 
