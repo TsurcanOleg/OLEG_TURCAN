@@ -1,5 +1,7 @@
 package homework_nr_5;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class HomeWorkNr5 {
 
     public static void main(String[] args) {
@@ -18,7 +20,7 @@ public class HomeWorkNr5 {
 
         };
 
-        for (int i = 0; i < 101; i++){
+        for (int i = 0; i < 101; i++) {
             System.out.println(number[i]);
         }
 
@@ -26,19 +28,26 @@ public class HomeWorkNr5 {
         // find summ array number
 
         int sumEven = 0;
-        for (int j = 0; j < number.length; j++){
-            if (number[j] % 2 == 0 ){
+        for (int j = 0; j < number.length; j++) {
+            if (number[j] % 2 == 0) {
                 sumEven += number[j];
             }
         }
         System.out.println(sumEven);
 
         long multiplyOdd = 1;
-        for (int k = 0; k < number.length; k++){
-            if (number[k] % 2 != 0){
+        for (int k = 0; k < number.length; k++) {
+            if (number[k] % 2 != 0) {
                 multiplyOdd *= number[k];
             }
         }
         System.out.println(multiplyOdd);
+
+        int[] copyNumbers = new int[number.length];
+        for (int i = 0; i < number.length; i++) {
+            copyNumbers[i] = number[i];
+            System.out.println(copyNumbers[i]);
+        }
+    }
 }
-}
+
