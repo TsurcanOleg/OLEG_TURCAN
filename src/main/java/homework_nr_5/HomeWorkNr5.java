@@ -21,5 +21,24 @@ public class HomeWorkNr5 {
         for (int i = 0; i < 101; i++){
             System.out.println(number[i]);
         }
+
+        System.out.println("Summ array number");
+        // find summ array number
+
+        int sumEven = 0;
+        for (int j = 0; j < number.length; j++){
+            if (number[j] % 2 == 0 ){
+                sumEven += number[j];
+            }
+        }
+        System.out.println(sumEven);
+
+        long multiplyOdd = 1;
+        for (int k = 0; k < number.length; k++){
+            if (number[k] % 2 != 0){
+                multiplyOdd *= number[k];
+            }
+        }
+        System.out.println(multiplyOdd);
 }
 }
