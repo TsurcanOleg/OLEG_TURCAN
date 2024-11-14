@@ -60,6 +60,7 @@ public class HomeWork3 {
             Summ += x;
         }
         System.out.println(Summ);
+
     }
 
 }
