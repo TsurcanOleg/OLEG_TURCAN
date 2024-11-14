@@ -25,6 +25,5 @@ public class Circle {
     public float calculateArea (){
         float calculateArea = 3.14F * radius * radius;
         return calculateArea;
-
     }
 }
