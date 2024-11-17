@@ -13,6 +13,6 @@ public class Encapsulation {
 
         System.out.println(person1.department);
         System.out.println(person2.getAge());
-
+        System.out.println(person3.getName() + person3.getAge() + person3.department);
     }
 }
