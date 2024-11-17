@@ -17,8 +17,9 @@ public class NumberUtils {
         return true;
     }
 
+
     public static int findPrimesInArray(int... numbers) {
-        int findPrimes = 0;
+        int findPrimes = 1;
         for (int i = 0; i < numbers.length; i++) {
             if (isPrime(numbers[i])) {
                 findPrimes = numbers[i];
