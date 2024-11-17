@@ -4,7 +4,6 @@ public class BankAccount {
 
     String accountNumber;
     double balance;
-    String Nomoney;
 
     public BankAccount(String accountNumber, double balance) {
         this.accountNumber = accountNumber;
