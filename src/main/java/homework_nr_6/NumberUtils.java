@@ -6,10 +6,10 @@ public class NumberUtils {
     }
 
     public static boolean isPrime(int number) {
-        if (number < 1) {
+        if (number < 2) {
             return false;
         }
-        for (int i = 1; i <= Math.sqrt(number); i++) {
+        for (int i = 2; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {
                 return false;
             }
@@ -18,11 +18,12 @@ public class NumberUtils {
     }
 
     public static int findPrimesInArray(int... numbers) {
-        for (int i = 1; i < numbers.length; i++) {
+        int findPrimes = 0;
+        for (int i = 0; i < numbers.length; i++) {
             if (isPrime(numbers[i])) {
+                findPrimes = numbers[i];
             }
-            return numbers[i];
         }
-        return 0;
+        return findPrimes;
     }
 }
