@@ -18,13 +18,12 @@ public class NumberUtils {
     }
 
 
-    public static int findPrimesInArray(int... numbers) {
-        int findPrimes = 1;
+    public static int[] findPrimesInArray(int... numbers) {
         for (int i = 0; i < numbers.length; i++) {
             if (isPrime(numbers[i])) {
-                findPrimes = numbers[i];
+                System.out.println(numbers[i]);
             }
         }
-        return findPrimes;
+        return numbers;
     }
 }
