@@ -1,11 +1,18 @@
 package homework_nr_7;
 
 public class InvoiceMain {
+
     public static void main(String[] args) {
 
-        Invoice inv1 = new Invoice("Samsung", "Phone", 4, 1200);
-        Invoice inv2 = new Invoice("Samsung", "Tablet", 2, 2200);
-        Invoice inv3 = new Invoice("Toshiba", "Laptop", 1, 16000);
-        Invoice inv4 = new Invoice("Karcher", "Vacuum cleaner", 2, 15400);
+        ElectricalAppliance ea1 = new ElectricalAppliance("Smasung", "S9", 2, 15000D);
+        ElectricalAppliance ea2 = new ElectricalAppliance("Toshiba", "Laptop", 1, 19000D);
+        ElectricalAppliance ea3 = new ElectricalAppliance("LG", "Vacuum", 2, 8500D);
+        ElectricalAppliance ea4 = new ElectricalAppliance("JBL", "box", 5, 3000D);
+
+        Invoice inv1 = new Invoice();
+
+
+
+
     }
 }
