@@ -35,4 +35,3 @@ public class HomeWorkNr5 {
         }
     }
 }
-
