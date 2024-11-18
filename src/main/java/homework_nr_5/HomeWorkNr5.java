@@ -8,7 +8,7 @@ public class HomeWorkNr5 {
         for (int i = 0; i < 101; i++){
             number[i] = i;
             System.out.println(number[i]);
-        };
+        }
 
         // find summ array number
 
