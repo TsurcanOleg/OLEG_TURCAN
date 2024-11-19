@@ -55,6 +55,6 @@ public class Date {
             default:
         }
         System.out.println(day + "/" + month + "/" + year);
-        return 0;
+        return 1;
     }
 }
