@@ -23,9 +23,15 @@ public class Date {
         this.month = month;
         this.year = year;
     }
-    public int displayDate(){
+    public int displayDate() {
+        int dateToShow = 0;
+        if (1 > month) {
+            return 1;
+        } else if (12 < month) {
+            return 2;
+        }
         System.out.println(day + "/" + month + "/" + year);
-        return 0;
+        return dateToShow;
     }
 }
 
