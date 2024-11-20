@@ -22,39 +22,32 @@ public class Date {
         this.day = day;
         this.month = month;
         this.year = year;
-    }
 
-    public int displayDate() {
-        if (1 > month) {
-            return 0;
-        } else if (12 < month) {
-            return 0;
+        if (month < 1) {
+        } else if (month > 12) {
         }
         switch (month) {
             case 1, 3, 5, 7, 8, 10, 12:
-                if (1 > day) {
-                    return 0;
-                } else if (31 < day) {
-                    return 0;
+                if (day < 1) {
+                } else if (day > 31) {
                 }
                 break;
             case 2:
-                if (1 > day) {
-                    return 0;
-                } else if (28 < day) {
-                    return 0;
+                if (day < 1) {
+                } else if (day > 28) {
                 }
                 break;
             case 4, 6, 9, 11:
-                if (1 > day) {
-                    return 0;
-                } else if (30 < day) {
-                    return 0;
+                if (day < 1) {
+                } else if (day > 30) {
                 }
                 break;
             default:
         }
-        System.out.println(day + "/" + month + "/" + year);
-        return 1;
     }
+
+    public void displayDate() {
+        System.out.println(day +"/"+ month +"/"+year);
 }
+}
+
