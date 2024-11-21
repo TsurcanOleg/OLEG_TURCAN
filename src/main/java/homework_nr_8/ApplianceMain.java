@@ -9,5 +9,16 @@ public class ApplianceMain {
 
         wm1.displayInfo();
         mw1.displayInfo();
+
+Appliance a1 = new WashingMachine("Samsung", 2500, 9.0);
+Appliance a2 = new Microwave("Gorenje", 1800, false);
+
+if (a1 instanceof WashingMachine){
+    System.out.println("This is a washing machines a load capacity of " + ((WashingMachine) a1).loadCapacity + " KG");
+}
+if (a2 instanceof Microwave){
+    System.out.println("This is a microwave whit a grill: " + ((Microwave) a2).hasGrill);
+}
+
     }
 }
