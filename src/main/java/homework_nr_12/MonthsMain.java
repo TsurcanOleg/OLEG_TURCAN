@@ -1,8 +1,5 @@
 package homework_nr_12;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MonthsMain {
     public static void main(String[] args) {
 
