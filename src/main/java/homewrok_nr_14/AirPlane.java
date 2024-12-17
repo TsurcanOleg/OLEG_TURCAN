@@ -5,7 +5,7 @@ public class AirPlane {
 
     public static void main(String[] args) {
 
-        airPlane("Airbus", "A380", 4);
+        airPlane("Airbus", "A380", 6);
 
 
     }
@@ -16,21 +16,21 @@ public class AirPlane {
             try {
                 throw new InvalidNrOfEnginesException();
             }catch (InvalidNrOfEnginesException e){
-                e.printStackTrace();
+                throw new RuntimeException(e);
             }
         }
         if (manufacturer.isEmpty()){
             try {
                 throw new InvalidManufacturerException("Invalid or not found manufacturer");
             }catch (InvalidManufacturerException e) {
-                e.printStackTrace();
+                throw new RuntimeException(e);
             }
         }
         if (model.isEmpty()){
             try{
                 throw new InvalidModelException("Invalid or not found model");
             }catch (InvalidModelException e){
-                e.printStackTrace();
+                throw new RuntimeException(e);
             }
         }
     }
